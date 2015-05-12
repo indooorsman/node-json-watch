@@ -1,0 +1,17 @@
+{
+  "name": "json-watch",
+  "version": "1.0.0",
+  "description": "auto reload a json file when it's changed without restart your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "auto",
+    "reload",
+    "watch"
+  ],
+  "author": "indooorsman@gmail.com",
+  "license": "ISC"
+}
