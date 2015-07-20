@@ -1,6 +1,6 @@
 {
   "name": "json-watch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "auto reload a json file when it's changed without restart your project",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
     "reload",
     "watch"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indooorsman/node-json-watch"
+  },
   "author": "indooorsman@gmail.com",
   "license": "ISC"
 }
