@@ -8,8 +8,10 @@ jw.watch(file);
 
 console.log('current json:', jw.get());
 
-fs.writeFileSync(file, '{"a": ' + (jw.get().a + 1) + '}', {encoding: 'utf8'});
+setTimeout(function () {
+  fs.writeFileSync(file, '{"a": ' + (jw.get().a + 1) + '}', {encoding: 'utf8'});
+}, 1000);
 
 setTimeout(function () {
-    console.log('after file changed:', jw.get());
-}, 6000);
+  console.log('after file changed:', jw.get());
+}, 2000);
